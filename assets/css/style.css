@@ -1,0 +1,369 @@
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url("../fonts/open-sans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.f-48 {
+  font-size: 48px;
+}
+
+.f-19 {
+  font-size: 19px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.f-41 {
+  font-size: 41px;
+}
+
+.f-40 {
+  font-size: 40px;
+}
+
+.f-30 {
+  font-size: 30px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-25 {
+  font-size: 25px;
+}
+
+.f-26 {
+  font-size: 26px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-31 {
+  font-size: 31px;
+}
+
+.f-15 {
+  font-size: 15px;
+}
+
+.f-13 {
+  font-size: 13px;
+}
+
+.ff-seg {
+  font-family: 'Segoe UI';
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+header {
+  padding-top: 15px;
+  height: 110px;
+}
+
+.upper-nav {
+  width: 100%;
+  display: block;
+  height: 36px;
+}
+
+#nav-line {
+  width: 100%;
+  height: 1.5px;
+  background:#000;
+  display: block;
+}
+
+#nav-line::before{
+  content: '';
+  width: 100%;
+  height: 0.75px;
+  top: 0%;
+  z-index: 9;
+  display: block;
+  background: url('../images/page/index.png');
+  transform: rotateY(90deg);
+ 
+
+}
+
+header hr {
+  margin: 0;
+}
+
+#phone-mail {
+  float: left;
+  margin: 0;
+}
+
+#phone-mail li {
+  float: left;
+  padding-left: 10px;
+  list-style-type: none;
+  padding-top: 0;
+}
+
+#phone-mail li div {
+  float: right;
+  padding-top: 2px;
+}
+
+#phone-mail li div a {
+  text-decoration: none;
+  color: #000;
+}
+
+#phone-mail li:nth-child(2) div {
+  padding-top: 0.5px;
+}
+
+#phone-mail li:nth-child(1) {
+  margin-top: -1.3px;
+}
+
+#phone-mail li img {
+  float: left;
+  width: 15px;
+  margin: 5px;
+}
+
+.upper-nav-right {
+  float: right;
+}
+
+#nav-kanan {
+  float: right;
+  list-style: none;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+#nav-kanan li {
+  float: left;
+  padding-left: 15px;
+}
+
+#nav-kanan li:nth-child(1) {
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+
+#nav-kanan li div {
+  float: right;
+  margin-left: 8px;
+}
+
+#nav-kanan li div img {
+  cursor: pointer;
+}
+
+#nav-kanan li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#nav-kanan #daftar {
+  border: 1px solid #000;
+  padding: 5px 30px 8px 30px;
+  border-radius: 20px;
+}
+
+.logo-wrapper {
+  padding-top: 16px;
+}
+
+#logo {
+  border-radius: 100%;
+  background: #FBB72B;
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin-right: 5px;
+}
+
+.lower-nav h3 {
+  font-family: OpenSans-Bold;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  float: left;
+  margin: 0;
+}
+
+.lower-menu {
+  float: right;
+}
+
+.lower-menu ul {
+  float: right;
+  margin: 0;
+  padding-top: 8px;
+}
+
+.lower-menu ul li {
+  float: left;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.lower-menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: OpenSans-Regular;
+}
+
+.banner {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  display: block;
+  padding-top: 50px;
+  height: 470px;
+}
+
+.banner-left {
+  width: 50%;
+  float: left;
+  padding-top: 90px;
+}
+
+.banner-left h2 {
+  max-width: 80%;
+}
+
+.location {
+  width: 100%;
+  background: #fff;
+  padding: 15px 12px 16px 12px;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+#cari {
+  width: 220px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px #888888 solid;
+  padding-left: 10px;
+}
+
+#lokasi {
+  width: 140px;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px #888888 solid;
+  padding-left: 10px;
+}
+
+#map-pin {
+  background: url(../images/icon/map-pin.png);
+  height: 30px;
+  position: absolute;
+  margin-left: -35px;
+  background-repeat: no-repeat;
+  width: 25px;
+  border: none;
+  background-position: center;
+  margin-top: 3px;
+}
+
+#submit {
+  float: right;
+  background: #FBB72B;
+  border: none;
+  border-radius: 40px;
+  height: 40px;
+  width: 150px;
+  color: #fff;
+}
+
+.banner-right {
+  width: 50%;
+  float: left;
+}
+
+.banner-right img {
+  width: 600px;
+  float: right;
+  margin-right: -95px;
+}
+
+.row-2 {
+  padding-top: 50px;
+  width: 100%;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.row-2 h2 {
+  margin: 0;
+}
+
+.row-2 .desc {
+  float: left;
+}
+
+.row-2 .slngkp {
+  float: right;
+  color: #FBB72B;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.row-3 {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.masakan {
+  width: calc(20% - 19px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.masakan:nth-child(1) {
+  margin-left: -5px;
+}
+
+.masakan:nth-child(5) {
+  margin-right: 0;
+}
+
+.masakan img {
+  width: 100%;
+}
+
+.nama-masakan{
+  width: 100%;
+  background: red;
+
+}
