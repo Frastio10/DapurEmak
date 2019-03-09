@@ -100,7 +100,7 @@ header {
 
 #nav-line {
   width: 100%;
-  height: 1.5px;
+  height: 2.3px;
   background: #000;
   display: block;
   position: relative;
@@ -108,13 +108,16 @@ header {
 
 #nav-line::before {
   width: 100%;
-  height: 0.3px;
+  height: 2px;
+  background-position: top center;
+  display: block;
+  background-repeat: no-repeat;
   background: url(../images/page/index.png);
   position: absolute;
   content: '';
   top: 0;
   left: 0;
-  background-size: cover;
+  background-size: auto 100%;
 }
 
 #phone-mail {
@@ -295,15 +298,18 @@ p {
   font-family: OpenSans-Regular;
 }
 
-.banner:before {
-  content: '';
+.banner::before {
   width: 100%;
-  top: 1%;
-  left: 0;
-  background-size: cover;
-  height: 1px;
-  background: url();
+  height: 5px;
+  background-position: top center;
+  display: block;
+  background-repeat: no-repeat;
+  background: url(../images/page/index.png);
   position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background-size: auto 100%;
 }
 
 .banner {
